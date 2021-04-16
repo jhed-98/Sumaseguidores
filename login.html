@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="css/style-login.css">
+    
+</head>
+<body>
+    
+    <div class="navbar">
+        <div class="logo"><div class="text-sg"><a href="index.html"><img src="images/icon_logo.png" class="logo-sg"><span  class="position-span">Suma </span> Seguidores</a></div></div>
+    </div>
+    
+    <div class="container">
+        <div class="card"> 
+            <div class="inner-box" id="card">
+                <div class="card-front">
+                    
+                      <h2>Iniciar Sesión</h2>                 
+                    <form>
+                        <input type="email" class="input-box" placeholder="Correo Electronico">
+                        <input type="password" class="input-box" placeholder="Contraseña">
+                        <button type="submit" class="submit-btn">Iniciar Sesión</button>
+                        <input type="checkbox"><span>Recordarme</span>
+                    </form>
+                    <button type="submit" class="btn" onClick="openRegister()">Registrase</button>
+                    <a href="#">¿Olvidó la contraseña?</a>
+                </div>
+                <div class="card-back">
+                    <h2>Crear Cuenta</h2>                 
+                    <form>
+                        <input type="email" class="input-box" placeholder="Correo Electronico *">
+                        <input type="password" class="input-box" placeholder="Contraseña *">
+                        <input type="text" class="input-box" placeholder="Primer nombre *">
+                        <input type="text" class="input-box" placeholder="Apellido *">
+                        <button type="submit" class="btn" >Registrar</button> 
+                    </form> 
+                    <a href="#" onClick="openLogin()">Volver a inscribirse</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="js/script-login.js"></script>
+</body>
+</html>
